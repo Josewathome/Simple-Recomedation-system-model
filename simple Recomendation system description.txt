@@ -1,0 +1,30 @@
+# RECOMEDATION SYSTEM #
+*Content Based Recomendation system*
+this are systems that help custumers by predidcting what they are looking for by looking at past likings.
+in this type of recomendations we need to create a profile for each item which represents the properties of those items. the user profiles are inferred for 
+a particular user. we will use these profiles to recomend items to the users from the cata log.
+
+Example , if the movie is an Item then its actors, director, release year and genre are its important properties. and for the document, the important
+ property is the type of content and set of important words in it.
+
+#Lets Create an item profile#
+first we need to perform the TF-IDF vectorizer, here TF(TERM FREQUENCY) of a word is the number of times it appears in a document and the IDF (inverse 
+document Frequency) of a word is the measure of how significant that term is in the whole document.
+
+During the creation of the users profile we use a utility matrix that describes the relationship between user and item. from this information the best 
+estimate we can decide which item the user likes, is some aggregation of the profiles of those items.
+
+#COLLABORATIVE FILTERING#
+This is based on the ideathat similar people(based on the data) generally tend to like similar things. By this it predicts which item a user will like 
+based on the item preferences
+It uses a user-item matrix to generate recomendations. this matrix contains the values that indicate a users preference towards a given item.
+
+
+#IN CONCLUSION#
+
+In conclusion, developing a Python recommendation system allows for the creation of tailored content recommendations that improve user experience and take 
+into account user preferences. Through the utilization of collaborative filtering, content-based filtering, and hybrid techniques, these systems are able 
+to offer customized recommendations to consumers for content, movies, or items. These systems use sophisticated methods such as closest neighbors and 
+matrix factorization to find hidden patterns in item attributes and user behavior. Recommendation systems are able to adjust and get better over time 
+thanks to the combination of machine learning and data-driven insights. In the end, these solutions are essential for raising consumer satisfaction, 
+improving user engagement, and propelling corporate expansion in a variety of industries.
